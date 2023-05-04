@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Final Project</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">
+            <img src="./images/logo 1.png" alt="logo of the company">
+        </a>logo</h1>
+        <div class="search-form">
+          <input type="text" id="search-input" placeholder="Search...">
+          <button id="search-button">Search</button>
+        </div>
+    <div class="div">
+        <img src="./images/user.png" alt="sign in">
+        <p id="signIn">Sign in</p>
+    </div>
+    </header>
+   <main id="main">
+   
+     <div id="products" class="products"></div>
+  
+      
+      <div class="categories">
+        <h4>Categories</h4>
+      <label><input type="checkbox" name="category" value="smartphones"> Smartphones</label>
+     <label><input type="checkbox" name="category" value="laptops"> Laptops</label>
+     <label><input type="checkbox" name="category" value="fragrances"> Fragrances</label>
+     <label><input type="checkbox" name="category" value="skincare"> Skincare</label>
+     <label><input type="checkbox" name="category" value="groceries"> Groceries</label>
+     <label><input type="checkbox" name="category" value="home-decoration"> home-decoration</label>
+     <label><input type="checkbox" name="category" value="furniture"> furniture</label>
+     <label><input type="checkbox" name="category" value="tops"> Tops</label>
+     <label><input type="checkbox" name="category" value="sunglasses"> Sunglasses</label>
+
+</div>
+   
+
+  </main>
+  <div id="product-modal" class="modal">
+    <div class="modal-content">
+      <img id="modal-image" class="modal-image" src="" alt="image best">
+      <span class="close">&times;</span>
+      <div id="modal-details" class="modal-details">
+        <h3 class= "modalh3" id="modal-title"></h3>
+        <p class="modalp" id="modal-description"></p>
+        <p class="modalp" id="modal-rating"></p>
+        <p class="aviable">Availability</p>
+        <img src="./images/stock.png" alt="stock">
+      </div>
+    </div>
+  </div>
+  <div class="pagination">
+    <a href="#" class="prev">&laquo;</a>
+    <a href="#" class="active">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#" class="next">&raquo;</a>
+  </div>
+  
+  <script src="./js folder/generatehtml.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+:root {
+  --main-color : #be7a2d;   
+}
+@font-face {
+    font-family: Poppins;
+    src: url(./font/Poppins-Regular.ttf);
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    height: 100px;
+    background-color: #152368;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header h1 {
+    font-size: 0;
+    margin: 15px;
+}
+header input {
+    height: 40px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+header button {
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--main-color);
+    color: #ffffff;
+    margin-right: 10px;
+}
+header form {
+    width: 440px;
+    height: 40px;
+    border-radius: 20px;  
+}
+header .div{
+    width: 120px;
+    height: 60px;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.containerDiv article h3 {
+    font-size: 14px;
+}
+.containerDiv article p {
+    font-size: 14px;
+}
+.div img{
+    width: 30px;
+    height: 30px;
+    color: #1a3add;
+}
+.modal {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  top: 60%;
+  left: 30%;
+  margin-top: 50px;
+  padding: 20px;
+  display: none;
+}
+
+
+.modal-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+}
+.modal-details {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  
+}
+.modalp {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  transition-duration: 5s;
+  color: var(--main-color);
+  width: 250px;
+  
+}
+
+.aviable {
+  color: #94b999;
+}
+.modalh3 {
+  margin-bottom: 15px;
+  color: #1a3add;
+}
+/* header -------------------- */
+
+
+body{
+    background-color: #d6d6d6;
+}
+
+/* making  page */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  
+  .pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  
+  .prev, .next {
+    font-size: 18px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: #534caf;
+    color: #1a3add;
+  }
+  .products {
+    width: 1100px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 18%;
+    padding: 15px;
+    margin-top: 80px;
+    
+  }
+  .product {
+       width: 200px;
+       height: 300px;
+       margin: 30px;
+       position: relative;
+        
+  }
+  .product .heart{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    
+  }
+  .product .tap {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+  }
+  .categories h4 {
+    margin-bottom: 20px;
+  }
+  .categories input {
+    width: 28px;
+    height: 28px;
+    border-radius: 20px;
+  }
+  /* .product .info{
+    
+  } */
+  .product .mainimg {
+     width: 200px;
+     height: 150px;
+     cursor: pointer;
+     border-radius: 10px;
+     border-style: groove;
+  }
+  .product h3 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .product p {
+    font-size: 12px;
+    margin-bottom: 15px ;
+  }
+
+
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 30%;
+  left: 30px;
+}
+
+
+
+  /* footer */
+ 
+
+  
+
+
+  
