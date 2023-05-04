@@ -127,7 +127,7 @@ function openModal(product) {
 
   const closeBtn = document.querySelector('.close');
    closeBtn.style = "font-size: 50px; position: fixed;right: 20%;top: 13%;color: #534caf; cursor: pointer";
-  closeBtn.addEventListener('click', () => {
+   closeBtn.addEventListener('click', () => {
     modal.style.display = 'none';
     productsDiv.style.display = 'flex';
   });
